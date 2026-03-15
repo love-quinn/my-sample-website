@@ -3,11 +3,43 @@
 
 <head>
     <title>Meu Site</title>
+    <!-- Link para o CSS do Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Link para o arquivo CSS personalizado -->
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-    <h1>Bem-vindo ao meu site!</h1>
-    <p>Este é um site simples hospedado no GitHub Pages.</p>
+    <div class="container">
+        <div class="header my-5 text-center">
+            <h1>Bem-vindo ao meu site!</h1>
+            <p>Este é um site simples hospedado no GitHub Pages.</p>
+        </div>
+
+        <div class="row justify-content-center">
+            <!-- Card 1 -->
+            <div class="col-md-6 col-sm-12 mb-4">
+                <div class="card">
+                    <img src="/img/corinthians-flag.jpg"
+                        class="card-img-top" alt="Imagem do Card 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Vai Corintians!</h5>
+                        <p class="card-text">Est. 1910</p>
+                        <!-- <a href="#" class="btn btn-primary">Saiba Mais</a> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Rodapé -->
+        <footer class="text-center mt-4">
+            <p>&copy; 2026 Lucas Santana</p>
+        </footer>
+    </div>
+    <!-- Scripts do Bootstrap (jQuery e Popper.js são necessários para alguns componentes do Bootstrap) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 
 </html>
